@@ -1,0 +1,64 @@
+CRITICAL - 2024-09-19 07:06:47 --> ErrorException: session_start(): Ignoring session_start() because a session is already active
+[Method: GET, Route: adminController/login]
+in APPPATH\Views\adminDashboard.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php', 3)
+ 2 APPPATH\Views\adminDashboard.php(3): session_start()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('adminDashboard', [], true)
+ 6 APPPATH\Controllers\adminController.php(19): view('adminDashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\adminController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SeGuMaS\\public\\index.php')
+CRITICAL - 2024-09-19 07:06:59 --> ErrorException: session_start(): Ignoring session_start() because a session is already active
+[Method: GET, Route: adminController/login]
+in APPPATH\Views\adminDashboard.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php', 3)
+ 2 APPPATH\Views\adminDashboard.php(3): session_start()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('adminDashboard', [], true)
+ 6 APPPATH\Controllers\adminController.php(19): view('adminDashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\adminController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SeGuMaS\\public\\index.php')
+CRITICAL - 2024-09-19 07:07:27 --> ErrorException: session_start(): Ignoring session_start() because a session is already active
+[Method: GET, Route: adminController/login]
+in APPPATH\Views\adminDashboard.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php', 42)
+ 2 APPPATH\Views\adminDashboard.php(42): session_start()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('adminDashboard', [], true)
+ 6 APPPATH\Controllers\adminController.php(19): view('adminDashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\adminController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SeGuMaS\\public\\index.php')
+CRITICAL - 2024-09-19 07:07:34 --> ErrorException: session_start(): Ignoring session_start() because a session is already active
+[Method: GET, Route: adminController/login]
+in APPPATH\Views\adminDashboard.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php', 42)
+ 2 APPPATH\Views\adminDashboard.php(42): session_start()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\SeGuMaS\\app\\Views\\adminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('adminDashboard', [], true)
+ 6 APPPATH\Controllers\adminController.php(19): view('adminDashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\adminController->login()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\adminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SeGuMaS\\public\\index.php')
